@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fylo landing page with two column layout</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-container">
+        <header class="main__header">
+          <img class="logo" src="images/logo.svg" alt="fylo logo" />
+          <nav>
+            <ul class="navbar__items">
+              <li class="hideMenu"><a href="#">Features</a></li>
+              <li class="hideMenu"><a href="#">Team</a></li>
+              <li class="hideMenu"><a href="#">Sign In</a></li>
+              <li class="menu-button" onclick="showMenu()">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="26"
+                  viewBox="0 96 960 960"
+                  width="26"
+                >
+                  <path
+                    d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"
+                  />
+                </svg>
+              </li>
+            </ul>
+
+            <ul class="sidebar">
+              <li onclick="hideSidebar()">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="26"
+                  viewBox="0 96 960 960"
+                  width="26"
+                >
+                  <path
+                    d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"
+                  />
+                </svg>
+              </li>
+
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Sign In</a></li>
+            </ul>
+          </nav>
+        </header>
+
+        <main class="main__illustration">
+          <picture>
+            <img
+              src="images/illustration-1.svg"
+              alt=""
+              class="illustration__image"
+            />
+          </picture>
+          <div class="main__content">
+            <h1>All your files in one secure location, accessible anywhere</h1>
+            <p>
+              Fylo stores your most important files in one secure location.
+              Access them wherever you need, share and collaborate with friends,
+              family, and co-workers.
+            </p>
+            <div class="flex__input">
+              <input
+                type="email"
+                id="name"
+                name="name"
+                required
+                minlength="4"
+                maxlength="8"
+                size="30"
+                placeholder="Enter your email..."
+              />
+              <button class="btn__start">Get Started</button>
+            </div>
+          </div>
+        </main>
+        <section>
+          <picture>
+            <img
+              src="images/illustration-2.svg"
+              alt="illustration second image"
+              class="illustration__image"
+            />
+          </picture>
+          <div class="secondary__content">
+            <h1>Stay productive, wherever you are</h1>
+            <p>
+              Never let location be an issue when accessing your files. Fylo has
+              you covered
+            </p>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script>
+      function showMenu() {
+        document.querySelector(".sidebar").style.display = "flex";
+      }
+      function hideSidebar() {
+        document.querySelector(".sidebar").style.display = "none";
+      }
+    </script>
+  </body>
+</html>

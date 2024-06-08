@@ -1,0 +1,92 @@
+/* Global reset and box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* CSS Variables for theme colors */
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 20%);
+  --dark-grey: hsl(0, 0%, 12%);
+  --off-black: hsl(0, 0%, 8%);
+  --black: #000;
+}
+
+/* Base styles */
+body {
+  background-color: var(--black);
+  font-family: "Inter", sans-serif;
+}
+
+/* Container styling */
+.container {
+  max-width: 40%;
+  color: var(--white);
+  margin: 10px auto;
+  background-color: var(--off-black);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Person profile styling */
+.person-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.person-avatar {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.person-profile h2 {
+  margin-bottom: 10px;
+}
+
+.person-place,
+.person-domain {
+  font-size: 14px;
+}
+
+.person-place {
+  color: var(--green);
+  margin-bottom: 20px;
+}
+
+/* Links styling */
+.links {
+  margin-top: 30px;
+}
+
+.profile-links {
+  list-style: none;
+  padding: 0;
+}
+
+.profile-links li {
+  background-color: var(--grey);
+  color: var(--white);
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 15px 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.profile-links li a {
+  text-decoration: none;
+  color: inherit; /* Ensure link color inherits the li color */
+}
+
+.profile-links li:active {
+  background-color: var(--green);
+  color: var(--black);
+}
