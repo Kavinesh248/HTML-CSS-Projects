@@ -26,7 +26,8 @@
   </head>
   <body>
     <div class="container">
-      <div class="main-container">
+      <main class="main-container">
+        <!-- Header navigation section -->
         <header class="main__header">
           <img class="logo" src="images/logo.svg" alt="fylo logo" />
           <nav>
@@ -68,8 +69,8 @@
             </ul>
           </nav>
         </header>
-
-        <main class="main__illustration">
+        <!-- Main illustration section -->
+        <section class="main__illustration">
           <picture>
             <img
               src="images/illustration-1.svg"
@@ -98,8 +99,10 @@
               <button class="btn__start">Get Started</button>
             </div>
           </div>
-        </main>
-        <section>
+        </section>
+        <!-- End of Main Illustration section -->
+        <!-- Second illustration section -->
+        <section class="secondary__illustration">
           <picture>
             <img
               src="images/illustration-2.svg"
@@ -107,15 +110,92 @@
               class="illustration__image"
             />
           </picture>
+          <!-- Secondary content section -->
           <div class="secondary__content">
-            <h1>Stay productive, wherever you are</h1>
-            <p>
-              Never let location be an issue when accessing your files. Fylo has
-              you covered
-            </p>
+            <div class="secondary__content__details">
+              <h1>Stay productive, wherever you are!</h1>
+              <p>
+                Never let location be an issue when accessing your files. Fylo
+                has you covered for all of your file storage needs.
+              </p>
+              <p class="secondary__paragraph">
+                Securely share files and folders with friends, family and
+                colleagues for live collaboratio. No email attachments required!
+              </p>
+
+              <a href="#"
+                >See how Fylo works
+                <svg
+                  width="16"
+                  height="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <defs>
+                    <circle id="b" cx="6" cy="6" r="6" />
+                    <filter
+                      x="-25%"
+                      y="-25%"
+                      width="150%"
+                      height="150%"
+                      filterUnits="objectBoundingBox"
+                      id="a"
+                    >
+                      <feOffset in="SourceAlpha" result="shadowOffsetOuter1" />
+                      <feGaussianBlur
+                        stdDeviation="1"
+                        in="shadowOffsetOuter1"
+                        result="shadowBlurOuter1"
+                      />
+                      <feColorMatrix
+                        values="0 0 0 0 0.239215686 0 0 0 0 0.62745098 0 0 0 0 0.560784314 0 0 0 0.793506567 0"
+                        in="shadowBlurOuter1"
+                      />
+                    </filter>
+                  </defs>
+                  <g fill="none" fill-rule="evenodd">
+                    <g transform="translate(2 2)">
+                      <use fill="#000" filter="url(#a)" xlink:href="#b" />
+                      <use fill="#3DA08F" xlink:href="#b" />
+                    </g>
+                    <path
+                      d="M8.582 6l-.363.35 1.452 1.4H5.333v.5h4.338L8.22 9.65l.363.35 2.074-2z"
+                      fill="#FFF"
+                    />
+                  </g>
+                </svg>
+              </a>
+            </div>
+
+            <!-- Author testimonial section -->
+            <div class="author__testimonial">
+              <div class="testimonial__container">
+                <p>
+                  Fylo has improved our team productivity by an order of
+                  magnitude. Since making the switch our team has become a
+                  well-oiled collaboration machine.
+                </p>
+                <!-- Details about author section -->
+                <div class="author__div">
+                  <img
+                    src="images/avatar-testimonial.jpg"
+                    alt="image of the testimonial author"
+                    class="author__image"
+                  />
+                  <!-- Author details section -->
+                  <div class="author__details">
+                    <h4>Kyle Burton</h4>
+                    <p>Founder & CEO, Huddle</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
-      </div>
+        <!-- End of secondary section -->
+        <!-- Get Early section -->
+        <!-- End of Get Early section -->
+      </main>
     </div>
     <script>
       function showMenu() {
