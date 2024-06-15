@@ -214,6 +214,7 @@ body {
 .secondary__illustration {
   /* background-image: url(images/bg-curve-desktop.svg);
   background-repeat: no-repeat; */
+  /* background-color: #f8f8fe; */
   display: grid;
   align-items: center;
   margin-top: 80px;
@@ -290,6 +291,33 @@ svg {
   margin: 0;
 }
 
+.section__get {
+  background-color: var(--desaturated-blue);
+  color: #fff;
+  padding: 80px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.early__input {
+  width: 100%;
+  display: grid;
+  gap: 10px;
+}
+
+.early__input input {
+  padding: 10px;
+}
+
+.early__input button {
+  background-color: var(--bright-blue);
+  border: 0;
+  padding: 10px;
+  color: #fff;
+  font-size: 14px;
+}
+
 @media (max-width: 400px) {
   .hideMenu {
     display: none;
@@ -334,6 +362,10 @@ svg {
   .main__content,
   .secondary__content {
     order: -1;
+  }
+
+  .section__get {
+    grid-template-columns: 1fr 1fr;
   }
 }
 
