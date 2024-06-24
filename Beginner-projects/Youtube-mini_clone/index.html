@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- HEADER SECTION -->
+    <header class="header">
+      <div class="header-container">
+        <div class="logo-col">
+          <a href="#"
+            ><ion-icon class="icon-menu" name="menu-sharp"></ion-icon
+          ></a>
+          <div class="logo-img-box">
+            <a href="#"
+              ><img
+                class="logo"
+                src="img/YouTube Premium-2.png"
+                alt="Youtube premium logo"
+            /></a>
+          </div>
+        </div>
+        <div class="search-col">
+          <form class="search">
+            <input
+              class="search-bar"
+              type="search"
+              name="gsearch"
+              placeholder="Search"
+            />
+          </form>
+
+          <ion-icon class="mic-icon" name="mic"></ion-icon>
+        </div>
+        <div class="account-col">
+          <a href="#"
+            ><ion-icon class="cam-icon" name="videocam-outline"></ion-icon
+          ></a>
+          <div class="account-img-box">
+            <a href=""
+              ><img
+                class="account-logo"
+                src="img/wolf.png"
+                alt="image of a black colored wolf"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- END OF HEADER SECTION -->
+
+    <!-- MAIN VIDEO DISPLAYING SECTION -->
+    <section class="section--video-content">
+      <div class="main--video-content">
+        <div class="video-container">
+          <div class="main--img-box">
+            <img
+              src="img/main-img.png"
+              alt="Image of the One dance playing"
+              class="main-img"
+            />
+            <p class="video-title">
+              Drake - One Dance (Lyrics) ft. Wizkid & Kyla
+            </p>
+          </div>
+          <div class="video-details">
+            <div class="channel-details">
+              <img
+                src="img/channel-name.png"
+                alt="Logo of the channel"
+                class="channel-logo"
+              />
+              <div class="channel--name-box">
+                <a href="#" class="channel-name">
+                  Billion Stars
+                  <ion-icon
+                    class="verified-icon"
+                    name="checkmark-circle"
+                  ></ion-icon
+                ></a>
+                <p class="channel-subscribers">200K subscribers</p>
+              </div>
+              <button class="btn-subscribe">Subscribe</button>
+            </div>
+            <div class="channel--other-details">
+              <div class="video--like-box">
+                <div class="like-container border--outline-right">
+                  <a href="#" class="like-button"
+                    ><ion-icon class="icon" name="thumbs-up-sharp"></ion-icon>
+                    2.3M</a
+                  >
+                </div>
+                <a href="#" class="like-button"
+                  ><ion-icon class="icon" name="thumbs-down-sharp"></ion-icon
+                ></a>
+              </div>
+              <div class="video--share-box">
+                <div class="like-container">
+                  <a href="#" class="share-button"
+                    ><ion-icon class="icon" name="share-outline"></ion-icon>
+                    Share</a
+                  >
+                </div>
+              </div>
+              <div class="video--share-box">
+                <div class="like-container">
+                  <a href="#" class="share-button"
+                    ><ion-icon class="icon" name="download-outline"></ion-icon>
+                    Download</a
+                  >
+                </div>
+              </div>
+              <div class="video--share-box">
+                <!-- <div class="like-container"> -->
+                <a href="#" class="share-button"
+                  ><svg
+                    class="icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    focusable="false"
+                    style="
+                      pointer-events: none;
+                      display: inherit;
+                      width: 100%;
+                      height: 100%;
+                    "
+                  >
+                    <path
+                      d="M7.5 12c0 .83-.67 1.5-1.5 1.5s-1.5-.67-1.5-1.5.67-1.5 1.5-1.5 1.5.67 1.5 1.5zm4.5-1.5c-.83 0-1.5.67-1.5 1.5s.67 1.5 1.5 1.5 1.5-.67 1.5-1.5-.67-1.5-1.5-1.5zm6 0c-.83 0-1.5.67-1.5 1.5s.67 1.5 1.5 1.5 1.5-.67 1.5-1.5-.67-1.5-1.5-1.5z"
+                    ></path>
+                  </svg>
+                </a>
+                <!-- </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video--recommendation-box">
+          <div class="video--topics-container">
+            <a href="#" class="topic topic-active">All</a>
+            <a href="#" class="topic">From Billion Stars</a>
+            <a href="#" class="topic">Contemporary R&B</a>
+            <ion-icon
+              class="topic--arrow-icon"
+              name="chevron-forward-outline"
+            ></ion-icon>
+          </div>
+          <div class="videos--recommendation-container">
+            <div class="main--recommendation-container">
+              <div class="thumbnail-box">
+                <img
+                  class="thumbnail"
+                  src="img/thumbnails/thumbnail-1.png"
+                  alt="thumbnail of the video"
+                />
+              </div>
+              <div class="recommend-video-details">
+                <p class="r--video-title">
+                  What is Data Science? - A Detailed Explanation
+                </p>
+                <a href="#" class="r--channel-name">Striver</a>
+                <p class="r--video-other-contents">53K views . 1 day ago</p>
+                <p class="new-video">New</p>
+              </div>
+            </div>
+            <div class="main--recommendation-container">
+              <div class="thumbnail-box">
+                <img
+                  class="thumbnail"
+                  src="img/thumbnails/thumbnail-2.png"
+                  alt="thumbnail of the video"
+                />
+              </div>
+              <div class="recommend-video-details">
+                <p class="r--video-title">
+                  Breaking News | Delhi HC Puts Arvind Kejriwal's Bail on Hold;
+                </p>
+                <a href="#" class="r--channel-name">Time New India</a>
+                <p class="r--video-other-contents">5K views . 10 day ago</p>
+                <p class="new-video">New</p>
+              </div>
+            </div>
+            <div class="main--recommendation-container">
+              <div class="thumbnail-box">
+                <img
+                  class="thumbnail"
+                  src="img/thumbnails/thumbnail-3.png"
+                  alt="thumbnail of the video"
+                />
+              </div>
+              <div class="recommend-video-details">
+                <p class="r--video-title">
+                  What is Articial Intelligence? - A Detailed Explanation
+                </p>
+                <a href="#" class="r--channel-name">Striver</a>
+                <p class="r--video-other-contents">53K views . 1 day ago</p>
+                <p class="new-video">New</p>
+              </div>
+            </div>
+            <div class="main--recommendation-container">
+              <div class="thumbnail-box">
+                <img
+                  class="thumbnail"
+                  src="img/thumbnails/thumbnail-4.png"
+                  alt="thumbnail of the video"
+                />
+              </div>
+              <div class="recommend-video-details">
+                <p class="r--video-title">
+                  10 Best Free AI Tools - You will be amazed!
+                </p>
+                <a href="#" class="r--channel-name">Striver</a>
+                <p class="r--video-other-contents">53K views . 1 day ago</p>
+                <p class="new-video">New</p>
+              </div>
+            </div>
+            <div class="main--recommendation-container">
+              <div class="thumbnail-box">
+                <img
+                  class="thumbnail"
+                  src="img/thumbnails/thumbnail-5.png"
+                  alt="thumbnail of the video"
+                />
+              </div>
+              <div class="recommend-video-details">
+                <p class="r--video-title">
+                  Some Key Math Tips for 10th Standard Students 🤗
+                </p>
+                <a href="#" class="r--channel-name">Striver</a>
+                <p class="r--video-other-contents">53K views . 1 day ago</p>
+                <p class="new-video">New</p>
+              </div>
+            </div>
+            <div class="main--recommendation-container">
+              <div class="thumbnail-box">
+                <img
+                  class="thumbnail"
+                  src="img/thumbnails/thumbnail-6.png"
+                  alt="thumbnail of the video"
+                />
+              </div>
+              <div class="recommend-video-details">
+                <p class="r--video-title">
+                  What is Data Science? - A Detailed Explanation
+                </p>
+                <a href="#" class="r--channel-name">Striver</a>
+                <p class="r--video-other-contents">53K views . 1 day ago</p>
+                <p class="new-video">New</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END OF MAIN VIDEO DISPLAYING SECTION -->
+  </body>
+</html>
