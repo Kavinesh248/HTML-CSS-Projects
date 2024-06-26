@@ -2,6 +2,7 @@
   --clr-strong-cyan: hsl(171, 66%, 44%);
   --clr-light-blue: hsl(233, 100%, 69%);
   --clr-dark-graying-blue: hsl(210, 10%, 33%);
+  --clr-light-graying-blue: hsl(195, 12%, 94%);
   --clr-graying-blue: hsl(201, 11%, 66%);
 }
 
@@ -27,8 +28,7 @@
   max-width: 100rem;
 }
 
-.header-title,
-.cta-title {
+.heading-primary {
   font-size: 4.4rem;
   color: var(--clr-dark-graying-blue);
   letter-spacing: -0.05rem;
@@ -37,7 +37,7 @@
 
 .header-description,
 .cta-description {
-  margin-bottom: 2.4rem;
+  margin-bottom: 3.2rem;
 }
 
 .action-buttons {
@@ -143,4 +143,38 @@
 
 .cta-content {
   padding: 3rem 20rem;
+}
+
+.footer {
+  background-color: var(--clr-light-graying-blue);
+  padding: 4.8rem 0;
+  position: relative;
+}
+
+.footer-logo {
+  height: 7rem;
+}
+
+.footer-link {
+  display: block;
+  font-size: 1.8rem;
+  color: var(--clr-dark-graying-blue);
+  text-decoration: none;
+  margin-bottom: 2.4rem;
+  font-weight: 500;
+}
+
+.social-links {
+  position: absolute;
+  right: 6rem;
+  bottom: 7rem;
+
+  display: flex;
+  gap: 2rem;
+}
+
+.social-icon {
+  height: 3rem;
+  width: 3rem;
+  color: var(--clr-dark-graying-blue);
 }
