@@ -3,26 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Clipboard - Make Life Simpler</title>
+    <link rel="icon" href="images/logo.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap"
       rel="stylesheet"
     />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/queries.css" />
   </head>
   <body>
     <header class="header">
       <img
         class="logo"
-        src="images/logo.svg"
+        srcset="images/logo.svg"
         alt="image of mountain as a background"
       />
       <div class="header-content">
-        <h1 class="header-title">A history of everything you copy</h1>
-        <p class="header-description">
+        <h1 class="heading-primary">A history of everything you copy</h1>
+        <p class="header-description description">
           Clipboard allows you to track and organize everything you copy.
           Instantly access your clipboard on all your devices
         </p>
@@ -36,7 +46,7 @@
       <!-- SECTION SNIPPETS -->
       <section class="general-content">
         <div class="general-container">
-          <h2 class="general-title">Keep track of your snippets</h2>
+          <h2 class="heading-secondary">Keep track of your snippets</h2>
           <p class="description">
             Clipboard instantly stores any item you copy in the cloud, meaning
             you can access your snippets immediately on all your devices. Our
@@ -65,13 +75,13 @@
             </div>
             <div class="feature-box">
               <p class="feature-title">iCloud Sync</p>
-              <p class="feature-description">
+              <p class="description">
                 Instantly saves and syncs snippets across all your devices.
               </p>
             </div>
             <div class="feature-box">
               <p class="feature-title">Quick Search</p>
-              <p class="feature-description">
+              <p class="description">
                 Easily search your snippets by content, category, web address,
                 application and more
               </p>
@@ -83,7 +93,7 @@
       <!-- CLIPBOARD SECTION -->
       <section class="general-content">
         <div class="general-container">
-          <h2 class="general-title">Access Clipboard anywhere</h2>
+          <h2 class="heading-secondary">Access Clipboard anywhere</h2>
           <p class="description">
             Whether you're on the go, or at your computer, you can access all
             your Clipboard snippets in a few simple clicks.
@@ -103,9 +113,11 @@
       <!-- WORKFLOW SECTION -->
       <section class="workflow-content">
         <div class="general-container">
-          <h2 class="general-title">Supercharge your workflow</h2>
+          <h2 class="heading-secondary">Supercharge your workflow</h2>
           <p class="description">
-            We've got the tools to boost your productivity.
+            We've got the tools to boost your productivity. Lorem, ipsum dolor
+            sit amet consectetur adipisicing elit. Laboriosam ab incidunt
+            consectetur, corporis sit nam?
           </p>
         </div>
       </section>
@@ -115,7 +127,7 @@
         <div class="container grid grid--3-cols">
           <div class="sub-feature">
             <img
-              class="icon-sub"
+              class="icon-sub icon--sub-blacklist"
               src="images/icon-blacklist.svg"
               alt="image of the blacklist icon"
             />
@@ -181,7 +193,7 @@
       <section class="section-cta">
         <div class="container cta-container">
           <div class="cta-content">
-            <h1 class="cta-title">Clipboard for iOS and mac OS</h1>
+            <h1 class="heading-primary">Clipboard for iOS and mac OS</h1>
             <p class="cta-description description">
               Available for free on the App Store. Download for Mac or iOS, sync
               with iCloud and you're ready to start adding to your clipboard.
@@ -196,6 +208,39 @@
       <!-- END OF CTA SECTION -->
 
       <!-- FOOTER -->
+      <footer class="footer">
+        <div class="container grid grid--5-cols">
+          <div class="footer--img-box">
+            <img
+              class="footer-logo"
+              src="images/logo.svg"
+              alt="Logo of the page in the footer"
+            />
+          </div>
+          <div class="footer-col">
+            <a href="#" class="footer-link">FAQs</a>
+            <a href="#" class="footer-link">Contact Us</a>
+          </div>
+          <div class="footer-col">
+            <a href="#" class="footer-link">Privacy Policy</a>
+            <a href="#" class="footer-link">Press Kit</a>
+          </div>
+          <div class="footer-col">
+            <a href="#" class="footer-link">Install Guide</a>
+          </div>
+          <div class="social-links">
+            <a href="#"
+              ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+            ></a>
+            <a href="#"
+              ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+            ></a>
+            <a href="#"
+              ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+            ></a>
+          </div>
+        </div>
+      </footer>
       <!-- END OF FOOTER -->
     </main>
   </body>
