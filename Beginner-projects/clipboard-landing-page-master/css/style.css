@@ -60,11 +60,21 @@
 .btn-ios {
   background-color: var(--clr-strong-cyan);
   box-shadow: 0 3px 5px 0 rgb(21, 99, 87);
+  transition: all 0.4s;
+}
+
+.btn-ios:hover {
+  background-color: #51c8b6;
 }
 
 .btn-mac {
   background-color: var(--clr-light-blue);
   box-shadow: 0 3px 5px 0 rgb(43, 64, 223);
+  transition: all 0.4s;
+}
+
+.btn-mac:hover {
+  background-color: #818fff;
 }
 
 .section-features {
