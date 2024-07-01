@@ -1,0 +1,279 @@
+/* HEADER SECTION */
+.update-box {
+  background-color: #ffe994;
+  padding: 2.4rem 0;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.updates {
+  font-size: 1.6rem;
+  letter-spacing: 0.5px;
+  display: inline-block;
+}
+
+.updates a {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 2px solid blue;
+}
+
+/* .close-icon {
+  height: 3rem;
+  width: 3rem;
+} */
+
+.udemy-container {
+  padding: 1.6rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  /* background-color: red; */
+}
+
+.udemy-logo {
+  height: 4rem;
+  display: block;
+}
+
+.form-category {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.6rem;
+
+  font-size: 1.6rem;
+  color: #a3a5a7;
+}
+
+.search-box {
+  padding: 1.6rem;
+
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+  border: 1px solid #2d2f31;
+  border-radius: 100px;
+}
+
+.category:link,
+.category:visited {
+  font-size: 1.8rem;
+}
+
+.search-input {
+  width: 60rem;
+  border: none;
+  font-size: 1.6rem;
+}
+
+.udemy-features {
+  display: flex;
+  align-items: center;
+}
+
+.feature-lists {
+  display: flex;
+  gap: 2.4rem;
+  align-items: center;
+  list-style: none;
+  font-size: 1.6rem;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.header-actions a:link,
+.header-actions a:visited {
+  color: #000;
+}
+
+.header-actions a:hover,
+.header-actions a:active,
+.feature:hover,
+.feature:active,
+.category:hover,
+.category:active {
+  color: #0000ee;
+}
+
+.icon-action {
+  height: 3rem;
+  width: 3rem;
+}
+
+.account-detail {
+  font-size: 1.6rem;
+  font-weight: 700;
+  background-color: #2d2f31;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.course--categories-container {
+  padding: 1.8rem 0 1.8rem 0;
+  border-top: 1px solid #abacad;
+  box-shadow: 0 4px 5px 1px rgba(0, 0, 0, 0.09);
+}
+
+.course-categories {
+  font-size: 1.7rem;
+  max-width: 140rem;
+  margin: 0 auto;
+}
+
+.course-lists {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.course-lists a:hover,
+.course-lists a:active {
+  color: #00008f;
+}
+/* END OF HEADER */
+
+/* MAIN SECTION */
+/* welcome section */
+.welcome-container {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+  padding: 3.2rem 6.2rem;
+}
+
+.welcome-account {
+  font-size: 3.2rem;
+  padding: 1.6rem;
+  background-color: #2d2f31;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.welcome--message-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.welcome-msg {
+  font-size: 3.2rem;
+  letter-spacing: -0.5px;
+}
+
+.welcome-description {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  font-size: 1.8rem;
+}
+
+.welcome-description .account-occupation {
+  color: #0000ee;
+  font-weight: 700;
+  border-bottom: 1px solid #0000ee;
+}
+/* end of welcome section */
+/* advertisement section */
+.section-advertisement {
+  margin: 1.4rem 2.4rem;
+  position: relative;
+}
+
+.advertisement-img {
+  width: 100%;
+  height: auto;
+}
+
+.advertisement--content-box {
+  width: 55rem;
+  padding: 2.4rem;
+  background-color: #fff;
+
+  position: absolute;
+  top: 7rem;
+  left: 10rem;
+}
+
+.advertisement-heading {
+  font-family: "Times New Roman", "Times", serif;
+  font-size: 4.4rem;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+
+.advertisement-description {
+  font-size: 2rem;
+  line-height: 1.6;
+}
+
+.ad:link,
+.ad:visited {
+  color: #0000ee;
+  border-bottom: 2px solid #000;
+}
+
+.btn {
+  background-color: #fff;
+  border: none;
+  border-radius: 50%;
+  padding: 1rem;
+  border: 1px solid #2d2f31;
+  background-color: #2d2f31;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.btn-icon {
+  height: 2.8rem;
+  width: 2.8rem;
+  color: #fff;
+}
+
+.btn-right {
+  right: 3rem;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.btn-left {
+  left: 3rem;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+/* end of advertisement section */
+/* lets start learning section */
+.section--start-learning {
+  padding: 3.6rem 0;
+}
+
+.learn--content-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.link-mylearning:link,
+.link-mylearning:visited {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0c0cc1;
+  border-bottom: 2px solid #0000ee;
+}
+
+/* end of lets start learning section */
+/* END OF MAIN SECTION */
