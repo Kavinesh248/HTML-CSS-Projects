@@ -275,5 +275,251 @@
   border-bottom: 2px solid #0000ee;
 }
 
+.your--courses-box {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  border: 1px solid #dddede;
+  position: relative;
+  margin-top: 3rem;
+  margin-bottom: 4.4rem;
+}
+
+.course-img {
+  width: 100%;
+  opacity: 0.7;
+  filter: brightness(0.4);
+}
+
+.your--course-content-box {
+  padding: 1.8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.course-name {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #6a6f73;
+  margin-bottom: 0.8rem;
+}
+
+.course-topic {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.course-timing {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #abacad;
+  margin-top: auto;
+}
+
+.course-timing span {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #6a6f73;
+}
+
+.course--play-btn {
+  height: 5rem;
+  width: 5rem;
+  /* padding: 1.2rem; */
+  border: none;
+  background-color: #fff;
+  display: inline-block;
+  border-radius: 50%;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 6rem;
+  top: 8rem;
+}
+
+.play-icon {
+  height: 3rem;
+  width: 3rem;
+}
+
+.business--content-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2d2f31;
+  padding: 1.6rem;
+}
+
+.business-description {
+  font-size: 1.8rem;
+  color: #fff;
+  line-height: 1.6;
+
+  display: flex;
+  gap: 1.4rem;
+}
+
+.business-description span {
+  font-weight: 700;
+}
+
+.business--cta-box {
+  display: flex;
+  gap: 1.4rem;
+}
+
+.business-btn {
+  padding: 1.2rem 2.4rem;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #2d2f31;
+  cursor: pointer;
+}
+
+.btn--dismiss {
+  color: #fff;
+  background-color: #2d2f31;
+  border: 1px solid #fff;
+}
 /* end of lets start learning section */
+/* what to learn section */
+.section--what--to-learn {
+  padding: 4.8rem 0;
+}
+
+.what--to-suggestion {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+}
+
+.suggest--course-box {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  gap: 2.4rem;
+  padding: 3.2rem;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s;
+}
+
+.suggest--course-box:hover {
+  background-color: #f7f7f7;
+}
+
+.suggest--course-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.suggest--course-name {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.suggest--course-description {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.suggest--course-author {
+  font-size: 1.6rem;
+  color: #828486;
+  margin-bottom: 0.8rem;
+}
+
+.suggest--course-duration {
+  font-size: 1.6rem;
+  display: flex;
+  gap: 1.4rem;
+  color: #828486;
+}
+
+.suggest--course-duration span {
+  color: #1e612b;
+}
+
+.suggest--course-rating {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  color: #828486;
+  display: inline-block;
+}
+
+.rating {
+  color: #590d0d;
+}
+
+.rating-icon {
+  color: #cf6b00;
+}
+
+.price {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-top: auto;
+}
+/* end of what to learn section */
+/* because you viewed section */
+.section--because-viewed {
+  padding: 4.8rem 0;
+}
+
+.tech-stack:link,
+.tech-stack:visited {
+  color: #0000ee;
+  border-bottom: 2px solid #8080f7;
+}
+
+.courses--recommended-box {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.8rem;
+}
+
+.course-details {
+  padding: 1.4rem 0;
+}
+
+.skill--course-name {
+  font-size: 1.6rem;
+  color: #000;
+  line-height: 1.2;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.skill--course-author {
+  color: #2d2f31;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.skill--course-rating {
+  font-size: 1.4rem;
+  display: flex;
+  gap: 0.8rem;
+  color: #6a6f73;
+  margin-bottom: 0.7rem;
+}
+
+.course--price {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.bestseller {
+  width: fit-content;
+  font-size: 1.6rem;
+  background-color: #eceb98;
+  padding: 0.4rem 0.8rem;
+}
+
+/* end of because you viewed section */
 /* END OF MAIN SECTION */
